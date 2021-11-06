@@ -1,6 +1,6 @@
 import { Form, Formik } from 'formik';
 import { useContext } from 'react';
-import { AppContext } from './AppContext';
+import { AppContext } from './context/AppContext';
 import { Input } from './Input';
 
 export const Login = () => {
